@@ -1,8 +1,18 @@
 import React from "react";
+import GameCircle from "./GameCircle";
 
 const GameBoard = () =>{
     return (
-        <div>GameBoard</div>
+        <div>
+            <GameCircle />
+            <GameCircle />
+            <GameCircle />
+            <GameCircle />
+            <GameCircle />
+            <GameCircle />
+            <GameCircle />
+            <GameCircle />
+        </div>
 
     )
 }
