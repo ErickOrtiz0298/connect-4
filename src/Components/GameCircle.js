@@ -8,7 +8,7 @@ const onClick = (ev,id,color) =>{
 const GameCircle = ({id,color,children}) => {
     console.log(id);
   return (
-    <div style={{backgroundColor:color}} onClick={(ev) => onClick(ev,id,color)}>
+    <div style={{backgroundColor:color, width:100, height:100}} onClick={(ev) => onClick(ev,id,color)}>
         {children}
     </div>
   )
